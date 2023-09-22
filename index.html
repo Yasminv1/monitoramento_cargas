@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Monitoramento de Carga</title>
+</head>
+<body> 
+    <div class="container">
+        <h1>Tabela de Carga de Caminhão</h1>
+    
+        <!-- Botão para adicionar uma nova entrada -->
+        <button id="adicionarEntrada">Adicionar Entrada</button>
+        
+        <!-- Tabela de carga de caminhão -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Hora</th>
+                    <th>Entrada</th>
+                    <th>Saida</th>
+                    <th>Total Carga</th>
+                </tr>
+            </thead>
+          </table> </br></br>
+        <div class="load-container">
+            <h2>Carga Atual:</h2>
+            <div id="quadradinhos" class="load"></div>
+            <p id="quantidadeSorteios">Número de Sorteios: 0</p>
+            <p id="pesoCarga">Peso da Carga: 0 kg</p>
+            <button id="sortearBtn">Sortear Carga</button>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
+
